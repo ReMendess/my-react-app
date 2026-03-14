@@ -102,3 +102,89 @@ function App(){
 
 export default App;
 ```
+
+# API com Fecth
+
+<img src="assets\react_API_Fecth.png" widht="150">
+
+App.jsx:
+
+ ``` 
+import './App.css'
+import { FetchExemplo } from './hooks-examples/FetchExemplo';
+
+function App(){
+  return(
+    <div>
+      <h1>Exemplo de API com fetch</h1>
+      <FetchExemplo/>
+    </div>
+  );
+}
+
+export default App;
+```
+
+# API com Axios
+
+
+App.jsx:
+
+ ``` 
+import './App.css'
+import { AxiosExemplo } from './hooks-examples/AxiosExemplo';
+
+function App(){
+  return(
+    <div>
+      <h1>Exemplo de API com Axios</h1>
+      <AxiosExemplo/>
+    </div>
+  );
+}
+
+export default App;
+```
+
+
+# Feedback de API
+
+App.jsx:
+
+ ``` 
+import './App.css'
+import { EstadoComFeedback } from './hooks-examples/EstadoComFeedback';
+
+function App(){
+  return(
+    <div>
+      <h1>Exemplo com estados de carregamento e erro</h1>
+      <EstadoComFeedback/>
+    </div>
+  );
+}
+
+export default App;
+```
+
+# API de IA
+
+<img src="assets\react_AI_API.png" widht="150">
+
+App.jsx:
+
+ ``` 
+import './App.css'
+import { GeradorRespostaIA } from './hooks-examples/GeradorRespostaIA';
+
+function App(){
+  return(
+    <div>
+      <h1>Teste com API da IA</h1>
+      <GeradorRespostaIA/>
+    </div>
+  );
+}
+
+export default App;
+```
