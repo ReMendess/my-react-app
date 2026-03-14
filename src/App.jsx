@@ -1,5 +1,5 @@
 import './App.css'
-import { ContadorBasico; } from './hooks-examples/ContadorBasico';
+import { ContadorBasico } from './hooks-examples/ContadorBasico';
 
 function App(){
   return(
