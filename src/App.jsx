@@ -1,12 +1,18 @@
 import './App.css'
-import { GeradorRespostaIA } from './hooks-examples/GeradorRespostaIA';
+import { AuthProvider } from './contexts/AuthContext';
+import { PainelLogin } from './hooks-examples/PainelLogin';
+import { AreaRestrita } from './hooks-examples/AreaRestrita';
+
+
 
 function App(){
   return(
-    <div>
-      <h1>Teste com API da IA</h1>
-      <GeradorRespostaIA/>
-    </div>
+    <AuthProvider>
+      <h1>Sistema com Login Simulado</h1>
+      <PainelLogin/>
+      <hr/>
+      <AreaRestrita/>
+    </AuthProvider>
   );
 }
 

@@ -188,3 +188,32 @@ function App(){
 
 export default App;
 ```
+
+
+# Painel com Autenticação de Usuário
+
+<img src="assets\react_AI_API.png" widht="150">
+
+App.jsx:
+
+ ``` 
+import './App.css'
+import { AuthProvider } from './contexts/AuthContext';
+import { PainelLogin } from './hooks-examples/PainelLogin';
+import { AreaRestrita } from './hooks-examples/AreaRestrita';
+
+
+
+function App(){
+  return(
+    <AuthProvider>
+      <h1>Sistema com Login Simulado</h1>
+      <PainelLogin/>
+      <hr/>
+      <AreaRestrita/>
+    </AuthProvider>
+  );
+}
+
+export default App;
+```
