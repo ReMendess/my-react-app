@@ -192,7 +192,8 @@ export default App;
 
 # Painel com Autenticação de Usuário
 
-<img src="assets\react_AI_API.png" widht="150">
+<img src="assets\react_Login.png" widht="150">
+<img src="assets\react_LoginII.png" widht="150">
 
 App.jsx:
 
